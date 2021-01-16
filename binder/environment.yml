@@ -8,18 +8,13 @@ channels:
   - conda-forge
 dependencies:
   - jupyterlab=2
-  - pandas
   - nbresuse
   - python>=3.7
   - nodejs
-  - r-base=4
-  - rpy2
-  - simplegeneric # for some reasons needed by rpy2
+  - pip
   - plink=1.90b6.12
   - king=2.2.4
+  - r-base=4
   - r-qqman==0.1.4
-  - numpy
-  - matplotlib
-  - psutil
-   - pip:
+  - pip:
     - bash_kernel
