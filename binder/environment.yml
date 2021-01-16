@@ -12,7 +12,7 @@ dependencies:
   - nbresuse
   - python>=3.7
   - nodejs
-  - r-base>=3.6
+  - r-base=4
   - rpy2
   - simplegeneric # for some reasons needed by rpy2
   - plink=1.90b6.12
